@@ -1,0 +1,15 @@
+{
+  "name": "qa-hometask",
+  "version": "1.0.0",
+  "description": "First project",
+  "main": "index.js",
+  "repository": "git@github.com:ml-astro/qa-hometask.git",
+  "author": "Maksim Ljovin <maksim.ljovin@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
