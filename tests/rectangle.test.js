@@ -15,10 +15,10 @@ test("Should output rectangle area: ", () => {
 });
 
 test("Should output rectangle info: ", () => {
-  expect(getRectangleInfo(4, 4)).toBe(
-    console.log("The perimeter of a rectangle is 16 and the area is 16")
+  expect(getRectangleInfo(7, 1)).toBe(
+    `The perimeter of a rectangle is 16 and the area is 7`
   );
-  expect(getRectangleInfo(10, 5)).toBe(
-    console.log("The perimeter of a rectangle is 30 and the area is 50")
+  expect(getRectangleInfo(2, 2)).toBe(
+    `The perimeter of a rectangle is 8 and the area is 4`
   );
 });
