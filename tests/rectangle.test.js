@@ -15,10 +15,7 @@ test("Should output rectangle area: ", () => {
 });
 
 test("Should output rectangle info: ", () => {
-  expect(getRectangleInfo(7, 1)).toBe(
-    `The perimeter of a rectangle is 16 and the area is 7`
-  );
-  expect(getRectangleInfo(2, 2)).toBe(
-    `The perimeter of a rectangle is 8 and the area is 4`
-  );
-});
+    const consoleSpy = jest.spyOn(console, 'log');
+    getRectangleInfo(3, 2);
+    expect(consoleSpy).toHaveBeenCalledWith(`The perimeter of a rectangle is 10 and the area is 6`
+)})

@@ -9,7 +9,7 @@ function getRectangleArea(length, width) {
 function getRectangleInfo(length, width) {
   const area = getRectangleArea(length, width);
   const perimeter = getRectanglePerimeter(length, width);
-  return `The perimeter of a rectangle is ${perimeter} and the area is ${area}`;
+  return console.log(`The perimeter of a rectangle is ${perimeter} and the area is ${area}`)
 }
 
 module.exports = { getRectanglePerimeter, getRectangleArea, getRectangleInfo };
